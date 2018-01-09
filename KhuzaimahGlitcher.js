@@ -1,3 +1,6 @@
+// Copyright(c) 2018 - Khuzaimah
+// All rights reserved
+
 var KhuzaimahGlitcher = (function () {
  function KhuzaimahGlitcher(options) {
   this.canvas = document.createElement('canvas');
