@@ -2,30 +2,30 @@
 Class for creating a glitch animation with an image file(s).
 
 ```
-  glitcher.glitch( './url', function () {<br/>
-   document.body.appendChild( glitcher.canvas );<br/>
-  });<br/>
-  function randomRange(min, max) {<br/>
-   return Math.floor(Math.random() * (max - min + 1)) + min;<br/>
-  }<br/>
-  setInterval(function () {<br/>
-   glitcher.options = {<br/>
-    color: {<br/>
-     red: 1,<br/>
-     green: 0.8,<br/>
-     blue: 0.58<br/>
-    },<br/>
-    stereoscopic: {<br/>
-     red: 10 * randomRange(1, 3),<br/>
-     green: 5 * randomRange(1, 3),<br/>
-     blue: 30 * randomRange(1, 3)<br/>
-    },<br/>
-    lineOffset: {<br/>
-     value: 5 * randomRange(1, 3),<br/>
-     lineHeight: 10 * randomRange(1, 3)<br/>
-    }<br/>
-   };<br/>
-   glitcher.process(); <br/>
+  glitcher.glitch( './url', function () {
+   document.body.appendChild( glitcher.canvas );
+  });
+  function randomRange(min, max) {
+   return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  setInterval(function () {
+   glitcher.options = {
+    color: {
+     red: 1,
+     green: 0.8,
+     blue: 0.58
+    },
+    stereoscopic: {
+     red: 10 * randomRange(1, 3),
+     green: 5 * randomRange(1, 3),
+     blue: 30 * randomRange(1, 3)
+    },
+    lineOffset: {
+     value: 5 * randomRange(1, 3),
+     lineHeight: 10 * randomRange(1, 3)
+    }
+   };
+   glitcher.process();
   }, 500);
 ```
 
