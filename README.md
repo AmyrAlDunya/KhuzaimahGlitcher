@@ -1,6 +1,7 @@
 # KhuzaimahGlitcher
 Class for creating a glitch animation with an image file(s).
 
+```
 >  glitcher.glitch( 'http://vignette2.wikia.nocookie.net/monsterspedia/images/2/28/SadakoDrapes-paper.jpg/revision/latest?cb=20140417231402', function () {<br/>
 >   document.body.appendChild( glitcher.canvas );<br/>
 >  });<br/>
@@ -26,5 +27,6 @@ Class for creating a glitch animation with an image file(s).
 >   };<br/>
 >   glitcher.process(); <br/>
 >  }, 500);
+```
 
 ![Example Image](./example-image.jpg)
